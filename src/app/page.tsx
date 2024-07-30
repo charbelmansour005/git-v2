@@ -3,7 +3,7 @@ import { URLs } from "./api/URLs";
 
 export default function Home() {
   const fetchData = () => {
-    fetch(URLs.DEV);
+    fetch(URLs.STAGING);
   };
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
